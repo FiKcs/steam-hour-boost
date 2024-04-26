@@ -1,5 +1,6 @@
 const steamUser = require('steam-user');
 const steamTotp = require('steam-totp');
+const keeprunning = require('./keeprunning.js')
 const fs = require('fs');
 const axios = require('axios');
 
