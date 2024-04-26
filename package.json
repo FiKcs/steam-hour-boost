@@ -1,7 +1,7 @@
 {
-  "name": "steam-hour-boost",
+  "name": "node.js",
   "version": "1.0.0",
-  "description": "Idles any game in library",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
