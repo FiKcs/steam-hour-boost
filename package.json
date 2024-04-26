@@ -1,11 +1,12 @@
 {
-  "name": "nodejs",
+  "name": "steam hour boost bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Idles any game in library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build-script.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
