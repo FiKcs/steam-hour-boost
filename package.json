@@ -1,5 +1,5 @@
 {
-  "name": "steam hour boost bot",
+  "name": "steam-hour-boost",
   "version": "1.0.0",
   "description": "Idles any game in library",
   "main": "index.js",
