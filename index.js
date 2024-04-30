@@ -3,9 +3,9 @@ const steamTotp = require('steam-totp');
 const keeprunning = require('./keeprunning.js')
 const axios = require('axios');
 
-const games = process.env.STEAM_GAME_IDS.split(',').map(id => parseInt(id.trim()));
-const accounts = process.env.ACCOUNTS.split(',');
-const discordWebhookURL = process.env.DISCORD_WEBHOOK_URL;
+const games = process.env.games.split(',').map(id => parseInt(id.trim()));
+const accounts = process.env.accounts.split(',');
+const discordWebhookURL = process.env.webhook;
 
 function sendWebhookMessage(message) {
   if (!discordWebhookURL) {
