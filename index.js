@@ -1,6 +1,6 @@
 const steamUser = require('steam-user');
 const steamTotp = require('steam-totp');
-const fs = require('fs');
+const keeprunning = require('./keeprunning.js')
 const axios = require('axios');
 
 const games = process.env.STEAM_GAME_IDS.split(',').map(id => parseInt(id.trim()));
